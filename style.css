@@ -1,0 +1,227 @@
+body{
+    background-color: rgb(2, 3, 47); 
+    color: white;
+}
+p{
+    color:red;
+}
+h1{
+    font-size: 200%;
+    text-align: center;
+    /* background-color: yellow; */
+    color: white;
+    background-image: url(images/background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.Navbar{
+    list-style: none;
+    inline-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(4, 35, 71);
+    margin-bottom: 40px;
+}
+.Navbar li{
+    float: right; 
+}
+.Navbar li a{ 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+.Navbar li a:hover{
+   background-color: rgb(145, 8, 122);
+   font-size: 1.04rem;
+}
+.firstline{
+    color: blueviolet;
+}
+.name{
+    color: rgb(148, 55, 12);
+}
+img{
+    float: right;
+}
+.left{
+    padding: 200px 50px;
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+/* --------ABOUT-------- */
+
+.aboutleft{
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.aboutfirst .row{
+    display: flex;
+    align-items: center; 
+}
+.aboutright{
+    padding-bottom: 100px;
+    padding-right: 300px;
+    max-width: 700px;
+    padding-left: 100px ;
+}
+.aboutright h1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+} 
+.para{
+    display: inline-flex;
+    float: right;
+    padding-left: 50px;
+    font-size: medium;
+}
+
+/* ---------WORK-------- */
+
+.wcontainer{
+    margin-top: 40px;
+}
+
+.Work{
+    padding-left: 600px;
+    font-size: 3rem;
+}
+.wrow{
+   content: "";
+   display: table;
+   clear: both;
+}
+.wcoloumn{
+    float: left;
+    width: 33%;
+    padding: 20px;
+    height: 300px;
+}
+
+/* -------------ACHIEVEMENTS------------ */
+
+.Achievements{
+    color: rgb(152, 167, 24);
+    text-align: center;
+    padding-left: 535px;
+    font-size: 3rem;
+}
+.aleft img{
+    float: left;
+}
+.atext{
+    justify-content: space-around;
+    padding-left: 40px;
+}
+.acoloumn{
+    float: left;
+    width: 33%;
+    padding: 60px;
+    padding-top: 50px;
+    height: 200px;
+}
+
+.c2text{
+    padding-top: 100px;
+    width: 23%;
+    float: left;
+    height: 100px;
+}
+
+.c3text{
+    padding-top: 200px;
+    padding-right: 70px;
+    text-align: right;
+}
+
+.a4coloumn{
+    float: left;
+    padding-left: -10px;
+    margin-top: 200px;
+    height: 400px;
+    margin-right: 90px;
+}
+
+.a4text {
+    margin-right: 50px; 
+    max-width: 600px;
+    padding-top: 150px;
+    padding-right: 100px;
+    height: 350px;
+}
+
+.a4coloumn, .a4text {
+    display: inline-block;
+    justify-content: space-around;
+    width: 20%;
+}
+
+/* ---------CONTACT--------- */
+
+.Contact{
+    text-align: center;
+    font-size: 3rem;
+    color: blueviolet;
+}
+.Form{
+    margin-top: 70px;
+    padding-left: 600px; 
+    margin-bottom: 200px;
+}
+input[type=text], select, textarea{
+  width: 40%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-top: 9px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-left: 50px;
+}
+
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#country{
+    margin-left: 66px;
+}
+input[type="submit"]{
+    margin-left: 120px;
+}
+
+.image5{
+    float: left;
+    margin-top: 30px;
+}
+/* -------FOOTER------- */
+
+.footer{
+    background-color: #000058;
+    height: 200px;
+}
+
+.footer h3{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 5rem;
+    color: #740c0c;
+}
