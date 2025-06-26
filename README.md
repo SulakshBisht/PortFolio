@@ -1,2 +1,2 @@
 # Portfolio 
-of - Sulaksh Bisht
+- Sulaksh Bisht
